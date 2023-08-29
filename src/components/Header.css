@@ -3,6 +3,7 @@
   padding: 24px 4%;
   background-color: rgb(255, 255, 255);
   display: flex;
+  justify-content: space-between;
   align-items: center;
   gap: 40px;
 }
@@ -10,6 +11,7 @@
 .logo {
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 
 .title {
@@ -32,8 +34,8 @@
 
 .link {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 14px;
-  color: #121212;
+  font-size: 18px;
+  color: #0fa9d3;
   letter-spacing: 1.9px;
 }
 
@@ -48,10 +50,10 @@ a {
   padding: 5px 0;
   margin: 0 12px;
   letter-spacing: 1px;
-  font-size: 12px;
-  line-height: 16px;
+  font-size: 18px;
+  line-height: 20px;
   font-weight: 900;
-  color: #222525;
+  color: #0dc0e9;
   text-decoration: none;
 }
 
