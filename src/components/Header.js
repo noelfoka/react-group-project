@@ -18,6 +18,11 @@ const Header = () => {
       path: '/profile',
       text: 'My profile',
     },
+    {
+      id: 4,
+      path: '/dragons',
+      text: 'Dragons',
+    },
   ];
 
   return (
