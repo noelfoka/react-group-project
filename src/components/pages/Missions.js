@@ -1,9 +1,8 @@
-import React from 'react'
+import React from 'react';
 
-export const Missions = () => {
-  return (
+const Missions = () => (
   <>
-  <tr>
+    <tr>
       <td> Mission Name </td>
       <td> Description </td>
       <td>
@@ -15,7 +14,6 @@ export const Missions = () => {
       </td>
     </tr>
   </>
-  )
-}
+);
 
 export default Missions;
