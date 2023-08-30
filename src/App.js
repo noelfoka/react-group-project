@@ -1,18 +1,26 @@
-import { Route, Routes } from 'react-router';
-import './App.css';
-import Header from './components/Header';
+import { Routes, Route } from 'react-router-dom';
+import React, { useEffect } from 'react';
+import { useDispatch } from 'react-redux';
+import Navbar from './components/pages/Navbar';
+import Dragon from './components/pages/Dragon';
+import Mission from './components/pages/Mission';
+import MyProfile from './components/pages/Myprofile';
 import Rocket from './components/pages/Rocket';
-import Missions from './components/pages/Missions';
-import Myprofile from './components/pages/Myprofile';
+import { fetchAPI } from './redux/rocket/Rocket';
 
 function App() {
+  const dispatch = useDispatch();
+  useEffect(() => {
+    dispatch(fetchAPI());
+  }, []);
   return (
-    <div className="App">
-      <Header />
+    <div>
+      <Navbar />
       <Routes>
-        <Route path="rocket" element={<Rocket />} exact="true" />
-        <Route path="missions" element={<Missions />} />
-        <Route path="profile" element={<Myprofile />} />
+        <Route path="/" element={<Rocket />} />
+        <Route path="/missions" element={<Mission />} />
+        <Route path="/dragons" element={<Dragon />} />
+        <Route path="/profile" element={<MyProfile />} />
       </Routes>
     </div>
   );
