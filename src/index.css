@@ -25,3 +25,255 @@ code {
     'Courier New',
     monospace;
 }
+
+.profile-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 100px;
+  margin-top: 200px;
+}
+
+.mission-profile {
+  font-weight: 700;
+}
+
+.joined-1 {
+  margin: 20px;
+}
+
+.joined-2 {
+  margin-top: 20px;
+  gap: 20px;
+  border-bottom: 1px solid rgb(170, 142, 142);
+}
+
+.joined-3 {
+  display: flex;
+  padding: 20px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.img-size {
+  width: 90%;
+  height: 40vh;
+  display: block;
+  margin: 2% auto;
+}
+
+.rocket-details > h2,
+p {
+  text-align: center;
+  width: 95%;
+  margin-inline: auto;
+}
+
+.btn-container {
+  width: 40%;
+  margin: 2% auto;
+}
+
+.rocket-cancel-btn,
+.rocket-reserve-btn {
+  width: 100%;
+  padding-block: 5%;
+  height: 24%;
+  border-radius: 4px;
+  border: none;
+  margin: 2% auto 15%;
+  cursor: pointer;
+}
+
+.rocket-cancel-btn {
+  background-color: gainsboro;
+  color: black;
+}
+
+.rocket-reserve-btn {
+  background-color: blue;
+  color: white;
+}
+
+.reserve-status {
+  padding-inline: 1%;
+  padding-block: 2px;
+  border-width: 22px;
+  font-size: 14px;
+  border-radius: 8px;
+  background-color: rgb(87, 214, 197);
+  margin-right: 1%;
+}
+
+.mission-status {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.falcon {
+  margin-top: 150px;
+}
+
+.rockets {
+  margin: 20px;
+  border-bottom: 1px solid rgb(148, 146, 146);
+}
+
+.profile-lists {
+  margin-top: 10px;
+}
+
+.list {
+  display: flex;
+  margin: 20px;
+  justify-content: space-between;
+  align-items: baseline;
+  list-style: none;
+  gap: 10px;
+  white-space: nowrap;
+}
+
+.table {
+  margin-top: 150px;
+}
+
+.dragon {
+  margin-top: 150px;
+}
+
+@media all and (min-width: 768px) {
+  .each-rocket {
+    margin-block: 2%;
+    width: 95%;
+    margin-inline: auto;
+    display: flex;
+    gap: 2%;
+  }
+
+  .img-size {
+    width: 225px;
+    height: 197px;
+  }
+
+  .rocket-details > h2,
+  p {
+    text-align: left;
+    width: auto;
+  }
+
+  .btn-container {
+    width: 100%;
+    margin: 0 0;
+  }
+
+  .rocket-reserve-btn,
+  .rocket-cancel-btn {
+    width: 219px;
+    height: 21%;
+    padding-block: 1%;
+    border-radius: 4px;
+    border: none;
+    margin: 2% 0 0 0;
+    cursor: pointer;
+  }
+
+  .rocket-reserve-btn {
+    background-color: blue;
+    color: white;
+  }
+
+  .rocket-cancel-btn {
+    background-color: gainsboro;
+    color: black;
+  }
+
+  .reserve-status {
+    padding-inline: 1%;
+    padding-block: 2px;
+    border-width: 22px;
+    font-size: 14px;
+    border-radius: 8px;
+    background-color: rgb(87, 214, 197);
+    margin-right: 1%;
+  }
+}
+
+.list .name {
+  width: 100%;
+  font-size: 20px;
+}
+
+@media (max-width: 460px) {
+  .profile-list {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+    height: 100%;
+    width: 90%;
+    margin: 20px;
+    margin-top: 150px;
+  }
+
+  .profile-lists {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .falcon {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    margin-top: 150px;
+  }
+
+  .falcon-list {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .each-rocket {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+  }
+
+  .rocket-img {
+    width: 480px;
+    border-radius: 10px;
+  }
+
+  .table {
+    width: 550px !important;
+    margin-top: 150px;
+  }
+
+  .rocket-reserve-btn {
+    width: 200px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .rocket-cancel-btn {
+    width: 200px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 460px) {
+  .menu {
+    display: none;
+  }
+}
