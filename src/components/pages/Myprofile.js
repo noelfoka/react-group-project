@@ -1,5 +1,9 @@
-import React from 'react';
+import RocketProfiles from '../rocket/RocketProfiles';
 
-const Myprofile = () => <div>Myprofile</div>;
+const MyProfile = () => (
+  <div className="profile-list">
+    <RocketProfiles />
+  </div>
+);
 
-export default Myprofile;
+export default MyProfile;

@@ -2,7 +2,7 @@ import React from 'react';
 
 const Missions = () => (
   <>
-    <tr>
+    <table>
       <td> Mission Name </td>
       <td> Description </td>
       <td>
@@ -12,7 +12,7 @@ const Missions = () => (
       <td>
         <span>Mission Button</span>
       </td>
-    </tr>
+    </table>
   </>
 );
 
