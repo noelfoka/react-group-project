@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
-import './Navbar.css';
+import '../Styles/Navbar.css';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { RiCloseCircleLine } from 'react-icons/ri';
 import logoImage from './SpaceLogo.png';
