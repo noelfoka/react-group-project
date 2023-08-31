@@ -1,9 +1,5 @@
-import Dragons from '../dragons/dragonsContainer';
+import React from 'react';
 
-const Dragon = () => (
-  <div>
-    <Dragons />
-  </div>
-);
+const Dragon = () => <div>Dragon</div>;
 
 export default Dragon;
