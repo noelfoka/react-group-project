@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 import React from 'react';
 import { useSelector } from 'react-redux';
 
@@ -6,9 +7,7 @@ const MyProfile = () => {
   const { missions } = useSelector((store) => store.missions); // Assuming missions are available in Redux store
 
   // Filter joined missions from the missions array
-  const joinedMissionsData = missions.filter((mission) =>
-    joinedMissions.includes(mission.id)
-  );
+  const joinedMissionsData = missions.filter((mission) => joinedMissions.includes(mission.id));
 
   return (
     <div className="profile-list">
