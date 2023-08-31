@@ -2,13 +2,14 @@
 
 .nav_bar {
   display: flex;
+  position: fixed;
   top: 0;
   left: 0;
   z-index: 200;
-  width: 90%;
-  background-color: white;
+  width: 100%;
   justify-content: space-between;
   padding: 24px 4%;
+  background-color: white;
   align-items: center;
   gap: 40px;
 }
@@ -39,7 +40,7 @@
 .link a {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 20px;
-  color: #0f9bdb;
+  color: #08baf0;
   letter-spacing: 1.9px;
   list-style: none;
   text-decoration: none;
@@ -65,8 +66,8 @@ li {
 }
 
 .active {
-  color: #14be8b;
-  border-bottom: 1px solid #14be8b;
+  color: #10e2c6;
+  border-bottom: 2px solid #10e2c6;
 }
 
 .drawer {

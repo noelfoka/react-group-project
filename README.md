@@ -11,7 +11,7 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 Math_Magician ](#-learderboard-)
+- [📖 Math\_Magicians ](#-math_magicians-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -125,7 +125,7 @@ Deploy this project on any web server
 👤 **Noel Foka **
 
 - GitHub: [@githubhandle](https://github.com/noelfoka)
-- Twitter: [@twitterhandle](https://twitter.com/noelfoka)
+- Twitter: [@twitterhandle](https://twitter.com/noelnomgne)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
