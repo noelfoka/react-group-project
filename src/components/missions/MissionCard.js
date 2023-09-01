@@ -18,7 +18,7 @@ const MissionCard = (props) => {
         <h5>{mission.mission_name}</h5>
       </th>
       <th className="description">
-        <p>{mission.mission_description}</p>
+        <p>{mission?.mission_description}</p>
       </th>
       <th className="mission-status">
         {switchBadge()}
