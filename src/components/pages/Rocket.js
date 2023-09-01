@@ -5,7 +5,8 @@ import SingleRocket from '../../redux/rocket/SingleRocket';
 const Rocket = () => {
   const dispatch = useDispatch();
 
-  const list = useSelector((state) => state.rocket);
+  // Access the 'list' property within 'state.rocket'
+  const list = useSelector((state) => state.rocket.list);
 
   const reserveRocket = (id) => (
     (list[id - 1].reserved && list[id - 1].reserved === 'true')

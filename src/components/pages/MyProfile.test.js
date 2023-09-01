@@ -1,6 +1,5 @@
 import React from 'react';
 import { act } from 'react-dom/test-utils';
-import { render } from '@testing-library/react';
 import { Provider } from 'react-redux';
 import { createRoot } from 'react-dom/client'; // Import createRoot from react-dom/client
 import store from '../../redux/configureStore'; // Import your Redux store
@@ -15,7 +14,7 @@ test('renders MyProfile component without errors', () => {
     createRoot(root).render( // Use createRoot from react-dom/client
       <Provider store={store}>
         <MyProfile />
-      </Provider>
+      </Provider>,
     );
   });
 });
