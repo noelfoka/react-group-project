@@ -1,0 +1,90 @@
+.missions-page {
+  padding: 20px;
+}
+
+.mission-head {
+  font-weight: 700;
+}
+
+.mission-set {
+  margin: 0;
+  padding: 15px 10px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ddd;
+}
+
+.mission-set:nth-of-type(odd) {
+  background-color: #ddd;
+}
+
+.mission-name {
+  font-weight: 700;
+}
+
+.mission-name,
+.mission-status,
+.mission-action {
+  width: 10%;
+}
+
+.mission-description {
+  width: 60%;
+}
+
+.membership,
+.membership_on {
+  background-color: #6d757d;
+  color: #fff;
+  border-radius: 5px;
+  border: 0;
+  padding: 5px;
+}
+
+.membership_on {
+  background-color: #02bab7;
+}
+
+.join,
+.join_on {
+  background-color: transparent;
+  color: #000;
+  border-radius: 5px;
+  border: 1px solid #000;
+  padding: 5px;
+}
+
+.join_on {
+  color: #f00;
+  border-color: #f00;
+}
+
+@media (max-width: 960px) {
+  .missions-page {
+    padding: 20px 10px;
+  }
+
+  .mission-head {
+    display: none;
+  }
+
+  .mission-set {
+    flex-wrap: wrap;
+  }
+
+  .mission-name {
+    width: 50%;
+  }
+
+  .mission-status,
+  .mission-action {
+    width: 20%;
+  }
+
+  .mission-description {
+    padding-top: 20px;
+    width: 100%;
+    order: 1;
+  }
+}

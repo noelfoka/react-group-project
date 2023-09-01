@@ -1,0 +1,34 @@
+.rockets-container {
+  display: flex;
+}
+
+.rockets-pictures {
+  width: 20rem;
+  height: 15rem;
+  margin: 1rem;
+}
+
+.reserve-rocket {
+  background-color: rgb(70, 120, 238);
+  color: white;
+  border: none;
+  padding: 0.8rem;
+  border-radius: 5%;
+  cursor: pointer;
+}
+
+.reserved-tag {
+  background-color: rgba(94, 201, 166, 0.97);
+  color: white;
+  padding: 0.2rem;
+  margin-right: 0.2rem;
+}
+
+.reserved-button {
+  background-color: white;
+  color: silver;
+  border: 1px solid black;
+  border-radius: 5%;
+  padding: 0.5rem;
+  cursor: pointer;
+}
