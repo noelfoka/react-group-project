@@ -28,9 +28,7 @@ code {
 
 .profile-list {
   display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  gap: 100px;
+  justify-content: space-start;
   margin-top: 200px;
 }
 
@@ -40,6 +38,7 @@ code {
 
 .joined-1 {
   margin: 20px;
+  width: 50%;
 }
 
 .joined-2 {
@@ -50,7 +49,8 @@ code {
 
 .joined-3 {
   display: flex;
-  padding: 20px;
+  padding: 25px;
+  border: 1px solid black;
   flex-direction: row;
   justify-content: space-between;
 }
@@ -116,21 +116,24 @@ p {
 }
 
 .rockets {
-  margin: 20px;
-  border-bottom: 1px solid rgb(148, 146, 146);
+  margin: 30px;
+  width: 50%;
 }
 
 .profile-lists {
-  margin-top: 10px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 .list {
   display: flex;
-  margin: 20px;
-  justify-content: space-between;
+  justify-content: space-around;
+  border: 1px solid black;
   align-items: baseline;
+  padding-left: 20px;
+  padding-right: 20px;
   list-style: none;
-  gap: 10px;
   white-space: nowrap;
 }
 
@@ -154,6 +157,10 @@ p {
   .img-size {
     width: 225px;
     height: 197px;
+  }
+
+  h6 {
+    font-size: 20px;
   }
 
   .rocket-details > h2,
@@ -208,20 +215,18 @@ p {
   .profile-list {
     display: flex;
     position: relative;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
-    gap: 50px;
     height: 100%;
     width: 90%;
     margin: 20px;
-    margin-top: 150px;
   }
 
-  .profile-lists {
+  /* .profile-lists {
     display: flex;
     flex-direction: column;
     gap: 20px;
-  }
+  } */
 
   .falcon {
     display: flex;

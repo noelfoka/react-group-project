@@ -57,12 +57,6 @@ This Project core Goal is for clients to Book a Space Shuttle or Cancel the Book
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- ## 🚀 Live Demo <a name="live-demo"></a>
-
-- [Live Demo Link](https://hetrox8.github.io/First-Capstone-Project/)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
-
 ## 💻 Getting Started <a name="getting-started"></a>
 
 
@@ -97,7 +91,9 @@ npm install
 
 To run the project, execute the following command:
 
-Double-click on the index file (index.html)
+```sh
+npm start
+```
 
 ### Run tests
 

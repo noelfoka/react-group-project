@@ -18,11 +18,6 @@ const Navbar = () => {
       text: 'Missions',
     },
     {
-      id: 3,
-      path: '/dragons',
-      text: 'Dragons',
-    },
-    {
       id: 4,
       path: '/profile',
       text: 'My profile',
@@ -44,7 +39,12 @@ const Navbar = () => {
       <ul className="links">
         {navlinks.map((item) => (
           <li className="link" key={item.id}>
-            <NavLink to={item.path} className={({ isActive }) => (isActive ? 'active' : '')}>{item.text}</NavLink>
+            <NavLink
+              to={item.path}
+              className={({ isActive }) => (isActive ? 'active' : '')}
+            >
+              {item.text}
+            </NavLink>
           </li>
         ))}
       </ul>
@@ -53,12 +53,30 @@ const Navbar = () => {
           <GiHamburgerMenu size={40} onClick={handleNav} />
         </div>
         <div className={nav ? 'drawer' : 'drawer-1'}>
-          <div className="close"><RiCloseCircleLine size={60} onClick={handleNav} /></div>
+          <div className="close">
+            <RiCloseCircleLine size={60} onClick={handleNav} />
+          </div>
           <ul className="menu-links">
-            <li><NavLink to="/" onClick={() => setNav(true)}>Rockets</NavLink></li>
-            <li><NavLink to="/missions" onClick={() => setNav(true)}>Missions</NavLink></li>
-            <li><NavLink to="/dragons" onClick={() => setNav(true)}>Dragons</NavLink></li>
-            <li><NavLink to="/profile" onClick={() => setNav(true)}>My Profile</NavLink></li>
+            <li>
+              <NavLink to="/" onClick={() => setNav(true)}>
+                Rockets
+              </NavLink>
+            </li>
+            <li>
+              <NavLink to="/missions" onClick={() => setNav(true)}>
+                Missions
+              </NavLink>
+            </li>
+            <li>
+              <NavLink to="/dragons" onClick={() => setNav(true)}>
+                Dragons
+              </NavLink>
+            </li>
+            <li>
+              <NavLink to="/profile" onClick={() => setNav(true)}>
+                My Profile
+              </NavLink>
+            </li>
           </ul>
         </div>
       </div>
