@@ -124,8 +124,9 @@ Deploy this project on any web server
 
 👤 **Noel Foka **
 
-- GitHub: [@githubhandle](https://github.com/noelfoka)
+- GitHub: [@noelfoka](https://github.com/noelfoka)
 - Twitter: [@twitterhandle](https://twitter.com/noelnomgne)
+- LinkedIn: [@LinkedIn](https://www.linkedin.com/noelfoka/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -152,7 +153,7 @@ If you like this project give me a star.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse.
+We would like to thank Microverse.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
