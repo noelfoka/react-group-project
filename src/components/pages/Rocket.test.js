@@ -26,7 +26,7 @@ describe('Rocket Component', () => {
       },
       // Add more rocket objects as needed
     ];
-    
+
     // Mock the useSelector hook to return the sample data
     jest.spyOn(require('react-redux'), 'useSelector').mockReturnValue(mockList);
 

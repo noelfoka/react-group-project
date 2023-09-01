@@ -1,18 +1,21 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { act } from 'react-dom/test-utils';
 import { render } from '@testing-library/react';
 import { Provider } from 'react-redux';
+import { createRoot } from 'react-dom/client'; // Import createRoot from react-dom/client
 import store from '../../redux/configureStore'; // Import your Redux store
 import MyProfile from './Myprofile';
 
 test('renders MyProfile component without errors', () => {
-  const root = document.createElement('div'); // Create a DOM element for rendering
-  root.id = 'root'; // Match the ID to your HTML file
-  document.body.appendChild(root); // Append the root element to the document body
+  const root = document.createElement('div');
+  root.id = 'root';
+  document.body.appendChild(root);
 
-  ReactDOM.createRoot(root).render(
-    <Provider store={store}>
-      <MyProfile />
-    </Provider>
-  );
+  act(() => {
+    createRoot(root).render( // Use createRoot from react-dom/client
+      <Provider store={store}>
+        <MyProfile />
+      </Provider>
+    );
+  });
 });
