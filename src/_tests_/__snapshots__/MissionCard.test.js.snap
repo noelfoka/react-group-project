@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MissionCard MissionCard rendered correctly 1`] = `
+<DocumentFragment>
+  <h5 />
+  <p>
+    Test Description
+  </p>
+  <span
+    class="badge bg-secondary"
+  >
+    Not A Member
+  </span>
+  <div>
+    <button
+      class="btn btn-outline-primary"
+      type="button"
+    >
+      Join  Mission
+    </button>
+  </div>
+</DocumentFragment>
+`;

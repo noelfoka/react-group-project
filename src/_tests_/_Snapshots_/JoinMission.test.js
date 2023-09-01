@@ -1,5 +1,5 @@
 import React from 'react';
-import { render, fireEvent } from '@testing-library/react';
+import { render, fireEvent, act } from '@testing-library/react';
 import { useDispatch } from 'react-redux';
 import JoinMission from '../../components/missions/JoinMission';
 
@@ -18,7 +18,9 @@ describe('JoinMission Component', () => {
     const joinButton = getByText('Join Mission');
     expect(joinButton).toBeInTheDocument();
 
-    fireEvent.click(joinButton);
+    act(() => {
+      fireEvent.click(joinButton);
+    });
 
     expect(dispatch).toHaveBeenCalledWith({ type: 'React-Redux-group-project/missions/JOIN_MISSION', id: 'mission123' });
   });
@@ -32,7 +34,9 @@ describe('JoinMission Component', () => {
     const leaveButton = getByText('Leave Mission');
     expect(leaveButton).toBeInTheDocument();
 
-    fireEvent.click(leaveButton);
+    act(() => {
+      fireEvent.click(leaveButton);
+    });
 
     expect(dispatch).toHaveBeenCalledWith({ type: 'React-Redux-group-project/missions/LEAVE_MISSION', id: 'mission123' });
   });
