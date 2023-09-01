@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 import { createStore } from 'redux';
 import rootReducer from '../../redux/configureStore'; // Import your actual reducer
 

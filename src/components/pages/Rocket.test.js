@@ -28,6 +28,7 @@ describe('Rocket Component', () => {
     ];
 
     // Mock the useSelector hook to return the sample data
+    // eslint-disable-next-line global-require
     jest.spyOn(require('react-redux'), 'useSelector').mockReturnValue(mockList);
 
     const { getByText } = render(<Rocket />);
