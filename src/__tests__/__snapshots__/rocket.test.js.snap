@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Rockets component renders correctly 1`] = `
+<div>
+  <div>
+    <div
+      class="rockets-container"
+    >
+      <div>
+        <img
+          alt="rockets-pictures"
+          class="rockets-pictures"
+          src="image1.jpg"
+        />
+      </div>
+      <div
+        class="rockets-info"
+      >
+        <h2>
+          Falcon 9
+        </h2>
+        <p>
+          A powerful rocket developed by SpaceX.
+        </p>
+        <button
+          class="reserve-rocket"
+          type="button"
+        >
+          Reserve Rocket
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

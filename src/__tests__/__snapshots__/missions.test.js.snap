@@ -1,0 +1,113 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Missions component renders correctly 1`] = `
+<div>
+  <div
+    class="missions-page"
+  >
+    <h1>
+      Missions
+    </h1>
+    <div
+      class="mission-container"
+    >
+      <ul
+        class="mission-set mission-head"
+      >
+        <li
+          class="mission-name"
+        >
+          Mission Name
+        </li>
+        <li
+          class="mission-description"
+        >
+          Description
+        </li>
+        <li
+          class="mission-status"
+        >
+          Status
+        </li>
+        <li
+          class="mission-action"
+        >
+          Action
+        </li>
+      </ul>
+      <ul
+        class="mission-set"
+      >
+        <li
+          class="mission-name"
+        >
+          Thaicom
+        </li>
+        <li
+          class="mission-description"
+        >
+          Thaicom is the name of a series of communications ... Thailand and modern communications technology.
+        </li>
+        <li
+          class="mission-status"
+        >
+          <button
+            class="membership_on"
+            id="membership"
+            type="submit"
+          >
+            Active Member
+          </button>
+        </li>
+        <li
+          class="mission-action"
+        >
+          <button
+            class="join_on"
+            id="join"
+            type="submit"
+          >
+            Leave Mission
+          </button>
+        </li>
+      </ul>
+      <ul
+        class="mission-set"
+      >
+        <li
+          class="mission-name"
+        >
+          Telstar
+        </li>
+        <li
+          class="mission-description"
+        >
+          Telstar 19V (Telstar 19 Vantage) is a communicatio ... launched by Ariane 5ECA on 1 July 2009.
+        </li>
+        <li
+          class="mission-status"
+        >
+          <button
+            class="membership_on"
+            id="membership"
+            type="submit"
+          >
+            Active Member
+          </button>
+        </li>
+        <li
+          class="mission-action"
+        >
+          <button
+            class="join_on"
+            id="join"
+            type="submit"
+          >
+            Leave Mission
+          </button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;

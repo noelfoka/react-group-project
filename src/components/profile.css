@@ -1,0 +1,40 @@
+.profile-page {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.profile-section {
+  width: 30%;
+}
+
+.profile-head {
+  font-weight: normal;
+}
+
+.profile-content {
+  padding: 0;
+  border: 1px solid #ddd;
+  list-style: none;
+  border-radius: 5px;
+}
+
+.profile-item {
+  padding: 10px 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.profile-item:last-of-type {
+  border-bottom: none;
+}
+
+@media (max-width: 960px) {
+  .profile-page {
+    flex-direction: column;
+  }
+
+  .profile-section {
+    width: 100%;
+  }
+}
